@@ -11,12 +11,12 @@ import os
 load_dotenv()
 
 # Azure OpenAI configuration
-OPENAI_API_KEY = "bd27e26c317a45e580662ce658d890a9"
-OPENAI_API_TYPE = "azure"
-embedding_deployement_name = "upcoretext-embedding"
-OPENAI_API_VERSION = "2024-05-01-preview"
-AZURE_OPENAI_ENDPOINT = "https://poc-slack.openai.azure.com/"
-llm_deployement_name = "chatmodel"
+OPENAI_API_KEY = "*****"
+OPENAI_API_TYPE = "*****""
+embedding_deployement_name = "*****"
+OPENAI_API_VERSION = "*****"
+AZURE_OPENAI_ENDPOINT = "*****"
+llm_deployement_name = "*****"
 
 # Step 1: Load and Chunk Documents
 def read_doc(directory):
